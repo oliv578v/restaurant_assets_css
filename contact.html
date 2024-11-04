@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Contact</title>
+  </head>
+  <header>
+    <h1>Restaurant KEA</h1>
+  </header>
+  <nav>
+    <ul>
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <hr />
+      <li>
+        <a href="menu.html">Menu</a>
+      </li>
+      <hr />
+      <li>
+        <a href="contact.html" class="active">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <body>
+    <main class="contact-main">
+      <section class="contact">
+        <fieldset>
+          <div class="map">
+            <img src="/img/map.jpg" width="100%" height="auto" />
+          </div>
+        </fieldset>
+      </section>
+        <section class="form-section">
+        <div class="text2">
+          <p>Guldbergsgade 29 2200 Copenhagen</p>
+          <p>
+            Phoneno.: <strong><a href="tel:20825370">20 82 53 70</a></strong>
+          </p>
+          <p>
+            E-mail:<strong
+              ><a href="mailto:info@restaurantkea.dk">
+                info@restaurantkea.dk</a
+              ></strong
+            >
+          </p>
+        </div>
+        <form>
+          <fieldset>
+            <legend>Contact form</legend>
+            <label for="fname">Full name</label>
+            <input type="text" id="fname" name="fname" /><br />
+
+            <label for="Pnumber">Phone no.</label>
+            <input type="tel" id="Pnumber" name="Pbumber" /><br />
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" /><br />
+
+            <label for="persons">Persons</label>
+            <input type="number" id="people" name="people" /><br />
+
+            <label for="dateandtime">Date and Time</label>
+            <input type="datetime-local" id="date" name="date" /><br />
+
+            <label for="message">Further information</label><br />
+            <textarea cols="17" rows="2" class="form-control"></textarea><br />
+
+            <button type="submit">Send</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+  </body>
+  <footer>
+    <p>&copy; 2023 Kea Development</p>
+  </footer>
+</html>

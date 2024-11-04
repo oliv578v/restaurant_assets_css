@@ -1,0 +1,21 @@
+:root {
+    --fontMain: "Times New Roman", Times, serif;
+    --fontHeader:  "Roboto Condensed", sans-serif;
+
+    --colorPrimary: red;
+    --colorSecondary: darkblue;
+    --colorActive: gold; 
+    --colorTertiary:lightgray;
+
+    --fontcolorSecondary: white;
+    --fontcolorMain:black;
+
+    --marginMain: 1rem;
+    --marginSmall: 0.5rem;
+    --marginTiny: 0.1rem;
+    --mainMargin: 10rem;
+
+    --paddingMain: 1rem;
+    --paddingSmall: 0.5rem;
+    --paddingTiny: 0.1rem;
+}
